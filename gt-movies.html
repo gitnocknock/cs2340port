@@ -19,87 +19,87 @@
     <ul class="stories">
       <li>
         <p class="story-text">As a user, I want to see information about the GT Movies Store so I can learn more about the app and its purpose.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I built an About page with static welcome content.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to register an account so that I can access the GT Movies Store.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I used Django's UserCreationForm for the signup page.</p>
       </li>
       <li>
         <p class="story-text">As a registered user, I want to log in so that I can access my account data.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I built a login form that authenticates username and password.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to be able to view the list of movies available in the GT Movies Store so I can make my selections.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I query all Movie objects on the movies index page.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to search movies per title so I can make my selections.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I added a form that filters movies using name__icontains.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to be able to access a shopping cart so I can list all movie items I am willing to purchase.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I built a cart page that reads movies from the session.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to be able to add one or more items of a movie to my shopping cart so I can purchase them in the future.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I added a button that stores the movie ID in session.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to create movie reviews so others can use my insights when searching for movies.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I let logged-in users submit a comment via a form.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to be able to remove all movie items from my shopping cart so I can have flexibility on what I purchase or not.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I added a clear button that resets the session cart.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to edit my reviews so I have the freedom to change my mind about my reviews.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I built an owner-only form to update review comments.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to delete my movie reviews so I have the freedom to change my mind about my reviews.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I added an owner-only button to remove review records.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to see the reviews of a movie so I can have information on whether I should purchase a movie or not.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I display related reviews on the movie's show page.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to see the details of a movie so I have the information to make my choices.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I show the name, price, and description on the show page.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to see a list of my orders so I can track what I have purchased and my expenses.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I built an orders page showing the user's past orders.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to be able to access the GT Movies Store from any desktop using a web browser, so I can use the app anywhere with an internet connection.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I built a standard web app, no install required.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want the GT Movies Store to feature a responsive Graphical User Interface (GUI) so I can access it through different devices with diverse screen sizes.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I used Bootstrap so the layout adapts to screen size.</p>
       </li>
       <li>
         <p class="story-text">As an administrator, I want to be able to manage (view, create, update, or delete) users from the GT Movies Store so we can keep information up to date.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I rely on Django's built-in admin panel for user CRUD.</p>
       </li>
       <li>
         <p class="story-text">As an administrator, I want to be able to manage (view, create, update, or delete) movies from the GT Movies Store so we can keep information up to date.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I registered the Movie model in the Django admin panel.</p>
       </li>
       <li>
         <p class="story-text">As an administrator, I want to be able to manage (create, update, or delete) reviews from the GT Movies Store so we can keep information up to date.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I registered the Review model in the Django admin panel.</p>
       </li>
       <li>
         <p class="story-text">As an administrator, I want to be able to manage (create, update, or delete) orders from the GT Movies Store so we can keep information up to date.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I registered the Order/Item models in the Django admin panel.</p>
       </li>
       <li>
         <p class="story-text">As a user, I want to report inappropriate reviews so that the comment section isn't cluttered with irrelevant or offensive reviews and the review is removed from the page moving forward.</p>
-        <p class="story-note placeholder">[explain how this works in the app]</p>
+        <p class="story-note">I updated reviews to create a boolean flag, then updated views and templates to display a report button. I also updated admin so staff can find and delete reported reviews.</p>
       </li>
     </ul>
 

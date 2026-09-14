@@ -121,6 +121,7 @@ ul.stories li { margin-bottom: 22px; }
 .story-note {
   margin: 0;
   font-size: 0.9rem;
+  color: var(--muted);
 }
 
 .video-frame {
