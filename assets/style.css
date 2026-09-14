@@ -119,12 +119,7 @@ ul.stories li { margin-bottom: 22px; }
 .story-text { margin: 0 0 4px; }
 
 .story-note {
-  display: inline-block;
-  margin: 8px 0 0 20px;
-  padding: 6px 14px;
-  background: var(--code-bg);
-  border: 1px solid var(--border);
-  border-radius: 14px;
+  margin: 4px 0 0;
   font-size: 0.9rem;
   color: var(--muted);
 }
