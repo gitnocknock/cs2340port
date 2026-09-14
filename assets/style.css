@@ -114,16 +114,13 @@ p, li {
 }
 
 ul.stories { padding-left: 22px; }
-ul.stories li { margin-bottom: 10px; }
+ul.stories li { margin-bottom: 22px; }
 
-.role-block {
-  margin-bottom: 24px;
-}
+.story-text { margin: 0 0 4px; }
 
-.role-block h3 {
-  font-size: 1.05rem;
-  margin: 0 0 8px;
-  font-weight: 700;
+.story-note {
+  margin: 0;
+  font-size: 0.9rem;
 }
 
 .video-frame {
